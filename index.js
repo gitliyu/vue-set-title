@@ -6,8 +6,9 @@ export default {
    * title: 未设置时默认的title值
    * */
   install: function (Vue, Router, title) {
+  	var _this = this;
     Router.beforeEach(function(to, from, next) {
-      this.setTitle(to.meta.title, title);
+      _this.setTitle(to.meta.title, title);
       next()
     });
   },
