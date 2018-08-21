@@ -1,0 +1,15 @@
+{
+  "name": "vue-set-title",
+  "version": "1.0.2",
+  "description": "vue set title",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "title"
+  ],
+  "author": "1042625709@qq.com",
+  "license": "ISC"
+}
