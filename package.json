@@ -1,6 +1,6 @@
 {
   "name": "vue-set-title",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "vue set title",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,10 @@
     "vue",
     "title"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitliyu/vue-set-title.git"
+  },
   "author": "1042625709@qq.com",
   "license": "ISC"
 }

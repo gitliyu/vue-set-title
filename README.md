@@ -17,14 +17,14 @@ Vue.use(Router)
 
 const router =  new Router({
   routes: [
-  	{
-  		path: '/',
-  		name: 'Index'，
-  		components: require('@/views/IndexPage').default,
-  		meta: {
-  			title: '主页'
-  		}
-  	}
+    {
+      path: '/',
+      name: 'Index'，
+      components: require('@/views/IndexPage').default,
+      meta: {
+        title: '主页'
+      }
+    }
   ]
 })
 
