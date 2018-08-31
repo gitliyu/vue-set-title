@@ -1,6 +1,6 @@
 # Vue-set-title
 
-通过修改`vue-router`配置，在切换路由时修改页面title
+通过修改`vue-router`配置，在切换路由时修改页面title，兼容了ios和微信
 
 Demo: ['vue-set-title'](https://www.liyu.fun/vue-set-title)
 Demo源码: ['demo'](https://github.com/gitliyu/vue-set-title/tree/master/demo)
