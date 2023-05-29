@@ -26,17 +26,17 @@ const router =  new Router({
       components: require('@/views/IndexPage').default,
       meta: {
         title: '主页'
+        // title: () => '主页'
       }
     }
   ]
 })
 
-
-/*
- * params
- * router: Router实例
- * title: 未设置时默认的title值
- * */
+/**
+ * @param Vue Vue实例
+ * @param Router Router实例
+ * @param defaultTitle 未设置时默认的title值
+ */
 Vue.use(setTitle, router, 'title')
 
 export default router
